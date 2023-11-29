@@ -21,7 +21,7 @@ def main():
         default='RealESRGAN_x4plus',
         help=('Model names: RealESRGAN_x4plus | RealESRNet_x4plus | RealESRGAN_x4plus_anime_6B | RealESRGAN_x2plus | '
               'realesr-animevideov3 | realesr-general-x4v3'))
-    parser.add_argument('-o', '--output', type=str, default='results', help='Output folder')
+    parser.add_argument('-o', '--output', type=str, default='/content/Real-ESRGAN/drive/MyDrive/dossier/results', help='Output folder')
     parser.add_argument(
         '-dn',
         '--denoise_strength',
